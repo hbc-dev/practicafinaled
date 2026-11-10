@@ -1,0 +1,6 @@
+class Estudiante {
+    private: 
+
+    public:
+    
+};
