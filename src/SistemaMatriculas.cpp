@@ -1,4 +1,5 @@
 #include "SistemaMatriculas.h"
+#include "Estudiante.h"
 #include <string>
 #include <map>
 #include <set>
@@ -12,9 +13,9 @@ SistemaMatriculas::SistemaMatriculas(map<int, Estudiante> student,set<string> su
 
 }
 
-void SistemaMatriculas::altaEstudiante(int ident;string name){
+void SistemaMatriculas::altaEstudiante(int iden, const string& name){
     
-    Estudiante Nuevo = Estudiante(ident,name);
+    Estudiante Nuevo = Estudiante(iden, name);
 
-    estudiantes[ident] = Nuevo;
+    estudiantes[iden] = Nuevo;
 }

@@ -1,18 +1,16 @@
 #include <iostream>
-#include <string>
 #include "Asignatura.h"
 
 using namespace std;
 
-
-Asignatura :: Asignatura(){
+Asignatura::Asignatura() {
     nombre = "";
 }
 
-Asignatura :: Asignatura(string NOM){
-    nombre = NOM;
+Asignatura::Asignatura(string nom) {
+    nombre = nom;
 }
 
-string Asignatura :: getNombre() const{
+string Asignatura::getNombre() const {
     return nombre;
 }

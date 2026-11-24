@@ -14,7 +14,7 @@ class Asignatura {
     */
     Asignatura();
     /*
-    * @brief Constructor .
+    * @brief Constructor.
     * @param nom el nombre de la asignatura.
     */
     Asignatura(string nom);

@@ -1,11 +1,10 @@
 #include <iostream>
-#include <string>
 #include <map>
 #include <set>
 #include "Asignatura.h"
 #include "Estudiante.h"
 
-using namespace std:
+using namespace std;
 
 class SistemaMatriculas{
 private:
